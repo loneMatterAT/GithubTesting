@@ -71,6 +71,7 @@ button:focus-visible {
   background-color: rgba(248, 33, 33, 0.783);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  height: 110px;
 }
 
 .logo { /*Logo of Website*/
@@ -80,12 +81,19 @@ button:focus-visible {
 }
 
 .logo-title { /*Logo title*/
-  font-size: 30px;
+  font-size: 22px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav-dropdown { /*Navbar dropdown menu*/
-  margin-top: 12px;
+  margin-top: 8.5px;
+}
+
+.nav-options {
+  display: flex;
+  margin-top: 4.5px;
+  margin-left: 40px;
+  gap: 20px;
 }
 
 .me-2 { /*Search navbar border*/

@@ -4,6 +4,11 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { FaHome } from 'react-icons/fa'; // Home icon
+import { FaList } from 'react-icons/fa'; // List icon
+import { FaDesktop } from 'react-icons/fa'; // Computer icon
+import { FaInfoCircle } from 'react-icons/fa'; // About icon
+import { FaSignOutAlt } from 'react-icons/fa'; // Logout icon
 
 function NavBar(props) {
   return (
@@ -18,7 +23,6 @@ function NavBar(props) {
             navbarScroll
           >
             <Nav.Link className='logo-title' href="#action1">{props.navname}</Nav.Link>
-           
             <NavDropdown className='nav-dropdown' id="navbarScrollingDropdown">
               <NavDropdown.Item href="#Lion">Lion</NavDropdown.Item>
               <NavDropdown.Item href="#Fox">Fox</NavDropdown.Item>
@@ -38,7 +42,13 @@ function NavBar(props) {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            
+            <div className="nav-options">
+              <Nav.Link className="home" href="#action1"><FaHome /> Home</Nav.Link>
+              <Nav.Link className="list" href="#action2"><FaList /> List</Nav.Link>
+              <Nav.Link className="computers" href="#action3"><FaDesktop /> Computers</Nav.Link>
+              <Nav.Link className="about" href="#action4"><FaInfoCircle /> About</Nav.Link>
+              <Nav.Link className="logout" href="#action5"><FaSignOutAlt /> Logout</Nav.Link>
+            </div>
           </Nav>
           <Form className="d-flex">
             <Form.Control

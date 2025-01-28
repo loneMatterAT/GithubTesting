@@ -17,7 +17,7 @@ import Footer from './Footer.jsx'
 function App() {
   return (
     <>
-      <NavBar logo={LogoImage} navname="My Top 10 Favorite Animalssasa"/>
+      <NavBar logo={LogoImage} navname="My Top 10 Favorite Animals"/>
       <FavAnimals name="Lion" desc="A majestic and powerful big cat, distinguished by its thick mane, known as the king of the jungle for its dominance and regal presence in the wild.​" img={LionImage}/>
       <FavAnimals name="Fox" desc="A small, intelligent mammal with striking red fur, renowned for its cunning instincts and ability to adapt to diverse environments.​" img={FoxImage}/>
       <FavAnimals name="Red Panda" desc="A rare and adorable tree-dwelling mammal with reddish-orange fur, native to the cool mountain forests of the Himalayas.​" img={PandaImage}/>
