@@ -1,0 +1,213 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+.bg-body-tertiary { /*NavBar Header of Website*/
+  background-color: rgba(248, 33, 33, 0.783);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.logo { /*Logo of Website*/
+  width: 98px;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+.logo-title { /*Logo title*/
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-dropdown { /*Navbar dropdown menu*/
+  margin-top: 12px;
+}
+
+.me-2 { /*Search navbar border*/
+  border-radius: 18px;
+  border: none;
+}
+
+body { /*Body of Website*/
+  background-color: rgba(0, 0, 0, 0.904);
+}
+
+hr { /*White Underline*/
+  color: white;
+}
+
+.card {
+  /* Main card */
+  width: 450px;
+  display: inline-block;
+  margin-right: 35px;
+  margin-left: 35px;
+  border: 2px solid white;
+  border-radius: 15px;
+  background-color: rgba(248, 33, 33, 0.783);
+  margin-bottom: 50px;
+  margin-top: 65px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.card:hover {
+  /* Hover effect for the card */
+  transform: scale(1.1);
+  box-shadow: 0 0 20px 5px rgba(248, 33, 33, 0.783);
+  border-color: rgba(255, 255, 255, 0.8);
+  animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    border-color: rgba(255, 255, 255, 1);
+  }
+}
+
+.card-img {
+  /* Card images */
+  width: 350px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-name {
+  /* Animal names */
+  color: rgb(220, 220, 220);
+}
+
+.card-desc {
+  /* Card description */
+  color: floralwhite;
+}
+
+.bg-footer-tertiary { /*Footer*/
+  background-color:rgba(248, 33, 33, 0.783);
+  width: 1500px;
+  height: 50px;
+  margin-left: -115px;
+  margin-top: 55px;
+}
+
+.dev-name { /*Developer name*/
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  height: 25px;
+  padding-left: 20px;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 365px;
+  transition: color 0.1s;
+  cursor: pointer;
+}
+
+.dev-name:hover {
+  color: white;
+}
+
+/*
+  Real CSS for cards
+  .card { 
+  width: 450px;
+  display: inline-block;
+  margin-right: 35px;
+  margin-left: 35px;
+  border-color: white;
+  border-radius: 15px;
+  background-color: rgba(248, 33, 33, 0.783);
+  margin-bottom: 50px;
+  margin-top: 65px;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+  position: realtive;
+}
+
+.card:hover { 
+  transform: scale(1.1);
+  box-shadow: 1px 1px 7px 3px rgba(248, 33, 33, 0.783);
+}
+
+.card-img { 
+  width: 350px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-name { 
+  color:rgb(220, 220, 220);
+}
+
+.card-desc { 
+  color: floralwhite;
+} */
